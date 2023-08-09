@@ -35,11 +35,18 @@ h2{
 h4{
   color: #fff;
   text-align: center;
+  font-size: 25px;
+}
+strong{
+	color: rgb(27,45,94);
+	text-shadow: 2px 2px 1px rgba(255,255,255,.5);
+	font: normal 28px 'League Gothic', Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 50px;
 }
 
 nav {
   top: 30px;
-  
 	display: inline-block;
 	font-family: 'ColaborateLightRegular', Arial, sans-serif;
 	font-size: 12px;
@@ -81,11 +88,6 @@ nav li a:hover{
 
 }
 
-strong{
-  color: #fff;
-}
-
-
 
 .logo{
   width: 50px;
@@ -97,7 +99,10 @@ strong{
 .img-pep{
   align-content: center;
   padding-left: 400px;
+  
 }
+
+
 
 button{
   float: center;
@@ -163,13 +168,7 @@ h5{
   padding-left: 30px;
 }
 
-.image img{
-  border: 5px solid #fff;
-  margin-top: 10px;
-  margin-left: 10px;
-  background: none;
-  background-color: blue;
-}
+
  
 footer{
   background-color: rgb(27,45,94);
@@ -308,12 +307,12 @@ section{
   }
 }
  
-@media screen and (max-width: 450px) 
+
+@media screen and (max-width: 414px) 
 {
   .wrapper-main{
     padding: 0%;
     margin: 0;
-    width: 50%;
     margin-bottom: 0;
 }
 
@@ -327,14 +326,15 @@ nav{
 
 
 ul{
+ margin-top: 50px;
  position: fixed;
- width: 70%;
+ width: 100%;
  height: 100vh;
  background: black;
- top: 50px;
  right: -100%;
  text-align: center;
  transition: all .5s;
+ 
 }
 
 nav ul li{
@@ -379,7 +379,6 @@ section{
  h1{
    color: #fff;
    font-size: 30px;
-   text-shadow: 50px;
    font-style: Bold;
    margin-left: 10px;
    border: 10px;
@@ -416,6 +415,13 @@ section{
 
   }
 
+  .img-pep{
+    align-content: center;
+    padding-left: 10px;
+    
+  }
+
 }
+
 
 
