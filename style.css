@@ -3,6 +3,23 @@
   margin: 0%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
+
+
+
+.hidden{
+  opacity: 0;
+  transition: 1s;
+
+}
+
+.show{
+  opacity: 1;
+
+}
+
 header {
 	position: fixed;
 	top: 0;
@@ -15,6 +32,7 @@ header {
 	text-shadow: 2px 2px 1px rgba(255,255,255,.5);
 	font: normal 28px 'League Gothic', Arial, sans-serif;
 	letter-spacing: 2px;
+  
 }
 
 h1 {
@@ -26,12 +44,22 @@ h1 {
   padding-top: 20px;
 }
 h2{
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
-  background-color: black;
   text-align: center;
 
 }
+
+h3{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  font-family: Space Grotesk;
+  border: solid 5px rgb(27,45,94);
+
+}
+
 h4{
   color: #fff;
   text-align: center;
@@ -43,6 +71,18 @@ strong{
 	font: normal 28px 'League Gothic', Arial, sans-serif;
 	letter-spacing: 2px;
 	font-size: 50px;
+}
+
+#tk{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(27,45,94);
+  text-shadow: 2px 2px 1px rgba(255,255,255,.5);
+	font: normal 28px 'League Gothic', Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 50px;
+  
 }
 
 nav {
@@ -97,7 +137,7 @@ nav li a:hover{
 
 }
 .img-pep{
-  align-content: center;
+  margin-top: 90px;
   padding-left: 400px;
   
 }
@@ -127,11 +167,25 @@ button{
   
  
 }
+#rd{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(27,45,94);
+  text-shadow: 2px 2px 1px rgba(255,255,255,.5);
+	font: normal 28px 'League Gothic', Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 50px;
+  
+}
 
-h3{
-  padding-left: 70px;
+h4{
+  text-align: center;
   color: #fff;
 }
+
+
+
 
 
 h5{
@@ -149,6 +203,7 @@ h5{
 }
 
 .social-media-icon{
+  margin-top: 20px;
   font-size: 2rem;
   text-decoration: none;
   border: 50px;
@@ -224,7 +279,7 @@ ul{
   width: 70%;
   height: 100vh;
   background: black;
-  top: 50px;
+  margin-top: 55px;
   right: -150%;
   text-align: center;
   transition: all .5s;
@@ -264,7 +319,11 @@ section{
   height: calc(100vh - 80px);
 }
   
-
+.img-pep{
+  margin-top: 0%;
+  padding-left: 100px;
+  
+}
   
  
 
@@ -279,31 +338,39 @@ section{
   }
   h4{
     color: #fff;
-    font-size: small;
+    font-size: 20px;
     margin-left: 20px;
   }
 
   h2{
-    font-size: 30px;
+    font-size: 18px;
     color: #fff;
     padding-left: 10px;
   }
 
   footer{
-    background: black;
-    margin-top: 0px;
+    margin-top: 500px;
+    background-color: rgb(27,45,94);
+    padding-bottom: 40px;
+    
   }
   h5{
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     color: white;
     width: 600px;
     text-emphasis-position: 30px;
     padding-left: 20px;
   }
+  
   h3{
-    padding-left: 30px;
-    color: #fff;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Space Grotesk;
+    border: solid 5px rgb(27,45,94);
+  
   }
 }
  
@@ -381,47 +448,196 @@ section{
    font-size: 30px;
    font-style: Bold;
    margin-left: 10px;
-   border: 10px;
+   
    
  }
  h4{
    color: #fff;
-   font-size: small;
+   font-size: 15px;
    margin-left: 20px;
+   
  }
 
  h2{
-   font-size: 30px;
+   font-size: 25px;
    color: #fff;
-   padding-left: 10px;
+   text-align: center;
  }
+
+ h3{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  font-family: Space Grotesk;
+  border: solid 5px rgb(27,45,94);
+  
+
+}
+#rd{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(27,45,94);
+  text-shadow: 2px 2px 1px rgba(255,255,255,.5);
+	font: normal 28px 'League Gothic', Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 50px;
+  margin-top: 200px;
+}
 
  footer{
-   background: black;
-   margin-top: 0px;
- }
+  background-color: rgb(27,45,94);
+  padding-bottom: 40px;
+  width: 100%;
+}
 
  h5{
-   text-align: left;
+   text-align: center;
    font-size: 20px;
    color: white;
    width: 450px;
-   text-emphasis-position: 30px;
-   padding-left: 20px;
+   padding-left: 0;
+   
  }
- h3{
-   padding-left: 30px;
-   color: #fff;
-
-  }
-
+ 
   .img-pep{
-    align-content: center;
-    padding-left: 10px;
+    padding-left: 0;
+    
     
   }
 
 }
 
+@media screen and (max-width: 428px) 
+{
+  h2{
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    margin-bottom: 70px;
+  
+  }
+
+  .img-pep{
+    padding-left: 0;
+  }
+    
+  h5{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 450px;
+    padding-left: 0;
+    
+  }
+   
+   
+  
+    .wrapper-main{
+      padding: 0%;
+      margin: 0;
+      margin-bottom: 0;
+  }
+  
+  nav{
+   float: right;
+   margin-top: none;
+   
+  
+  }
+  
+  
+  
+  ul{
+   margin-top: 50px;
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background: black;
+   right: -100%;
+   text-align: center;
+   transition: all .5s;
+   
+  }
+  
+  nav ul li{
+   display: block;
+   margin: 50px 0;
+   line-height: 30px;
+  
+  }
+  
+  nav ul li a{
+   font-size: 20px;
+  }
+  
+  .checkbtn{
+   position: relative;
+   font-size: 30px;
+   color: #fff;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   display: block;
+   cursor: pointer;
+  }
+  
+  #check{
+   display: none;
+  }
+  #check:checked ~ ul{
+   right: 0;
+  }
+  
+  section{
+   background: url(vault.JPG) no-repeat;
+   background-size: cover;
+   height: calc(100vh - 80px);
+  }
+   
+  #tk{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(27,45,94);
+    text-shadow: 2px 2px 1px rgba(255,255,255,.5);
+    font: normal 28px 'League Gothic', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    
+    
+  }
+  
+  
+
+}
+
+@media screen and (max-width: 390px) 
+{
+  h2{
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    margin-bottom: 70px;
+  
+  }
+
+  footer{
+    background-color: rgb(27,45,94);
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  
+   h5{
+     text-align: center;
+     font-size: 18px;
+     color: white;
+     padding-right: 35px;
+     padding-left: 0%;
+     
+   }
+
+}
 
 
