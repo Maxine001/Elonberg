@@ -1,6 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
@@ -316,7 +317,7 @@ nav ul li a{
 section{
   background: url(vault.JPG) no-repeat;
   background-size: cover;
-  height: calc(100vh - 80px);
+  
 }
   
 .img-pep{
@@ -433,15 +434,7 @@ nav ul li a{
  right: 0;
 }
 
-section{
- background: url(vault.JPG) no-repeat;
- background-size: cover;
- height: calc(100vh - 80px);
-}
  
-
- 
-
 
  h1{
    color: #fff;
@@ -490,6 +483,7 @@ section{
   background-color: rgb(27,45,94);
   padding-bottom: 40px;
   width: 100%;
+  
 }
 
  h5{
@@ -503,6 +497,7 @@ section{
  
   .img-pep{
     padding-left: 0;
+    margin-top: 50px;
     
     
   }
@@ -590,12 +585,7 @@ section{
    right: 0;
   }
   
-  section{
-   background: url(vault.JPG) no-repeat;
-   background-size: cover;
-   height: calc(100vh - 80px);
-  }
-   
+  
   #tk{
     font-size: 30px;
     text-align: center;
