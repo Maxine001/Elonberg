@@ -321,8 +321,9 @@ section{
 }
   
 .img-pep{
-  margin-top: 0%;
-  padding-left: 100px;
+  padding-left: 110px;
+  margin-top: 110px;
+  
   
 }
   
@@ -497,7 +498,7 @@ nav ul li a{
  
   .img-pep{
     padding-left: 0;
-    margin-top: 50px;
+    margin-top: 110px;
     
     
   }
@@ -516,6 +517,9 @@ nav ul li a{
 
   .img-pep{
     padding-left: 0;
+    margin-top: 110px;
+    
+    
   }
     
   h5{
